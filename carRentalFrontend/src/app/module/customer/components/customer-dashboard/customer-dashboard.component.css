@@ -1,0 +1,41 @@
+.child {
+    padding: 20px;
+    width: 780px;
+    background-color: white;
+    box-shadow: 1px 1px 15px -7px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.car-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.car-image {
+    margin-right: 20px; /* Space between the image and the details */
+}
+
+.car-details {
+    flex-grow: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+h2:hover {
+    text-decoration-line: underline;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 0em;
+}

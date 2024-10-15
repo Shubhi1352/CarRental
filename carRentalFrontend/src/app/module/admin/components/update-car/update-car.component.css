@@ -1,0 +1,81 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.child {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.imgDiv {
+    display: flex;           /* Use flexbox */
+    justify-content: center; /* Horizontally center the h2 */
+    align-items: center;     /* Vertically center if needed */
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center; /* Ensures text is centered inside imgDiv */
+}
+
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;  /* Ensure container takes full width */
+}
+
+.image-preview {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nz-form-item {
+    margin-bottom: 20px;
+    width: 100%;  /* Ensure each form item spans full width */
+}
+
+nz-form-control {
+    width: 100%;  /* Ensure form controls take full width */
+}
+
+input[nz-input], 
+textarea[nz-input], 
+nz-select, 
+nz-year-picker {
+    width: 100%;  /* Ensure all inputs, selects, and pickers are full width */
+}
+
+.login-form-button {
+    width: 100%;  /* Full width for the update button */
+}

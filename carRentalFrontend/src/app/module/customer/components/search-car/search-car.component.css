@@ -1,0 +1,38 @@
+.inner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.dashboard-filter{
+    width: 780px;
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 5px;
+}
+.filter-select-dropdown{
+    justify-content: center;
+    display: flex;
+}
+.filterBtn{
+    width: 7rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.filterBtn:hover{
+    background-color: rgb(57, 57, 57);
+    box-shadow: 1px;
+}
+.child{
+    padding: 20px;
+    width: 780px;
+    background-color: white;
+    background: rgb(236, 236, 236);
+    box-shadow: 1px 1px 15px -7px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
